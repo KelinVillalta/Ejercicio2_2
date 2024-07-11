@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:forms="clr-namespace:SignaturePad.Forms;assembly=SignaturePad.Forms"
              x:Class="Ejercicio2_2.MainPage">
-
+    
     <StackLayout>
         <forms:SignaturePadView x:Name="PadView" StrokeColor="Black"
                     BackgroundColor="PapayaWhip"
@@ -12,12 +12,12 @@
                     HeightRequest="360"/>
 
 
-        <Entry x:Name="name" Placeholder="NOMBRE" Keyboard="Text"></Entry>
-        <Entry x:Name="description" Placeholder="DESCRIPCION" Keyboard="Text"></Entry>
+        <Entry x:Name="name" Placeholder="Ingrese nombre" Keyboard="Text"></Entry>
+        <Entry x:Name="description" Placeholder="Descripción" Keyboard="Text"></Entry>
 
         <Button Text="GUARDAR A SQLite" Clicked="SaveButton_Clicked"></Button>
         <Button Text="BORRAR" Clicked="ClearButton_Clicked"></Button>
-        <Button Text="LISTA FIRMAS" Clicked="ViewSignaturesButton_Clicked"></Button>
+        <Button Text="LISTAR FIRMAS" Clicked="ViewSignaturesButton_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

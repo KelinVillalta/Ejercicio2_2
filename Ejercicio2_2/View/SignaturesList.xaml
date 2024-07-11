@@ -20,10 +20,10 @@
                             <ColumnDefinition Width="*"></ColumnDefinition>
                             <ColumnDefinition Width="*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <Label Text="{Binding code}" Grid.Row="0" Grid.Column="0" TextColor="Black"></Label>
-                        <Label x:Name="txtName" Text="{Binding name}" Grid.Row="1" Grid.Column="1" TextColor="Black" Padding="10"></Label>
-                        <Label Text="{Binding description}" Grid.Row="0" Grid.Column="2" TextColor="Black"></Label>
-                        <Label x:Name="imageCodeText" Text="{Binding imageCode}" Grid.Row="3" Grid.Column="0" TextColor="Black" IsVisible="false"></Label>
+                        <Label Text="{Binding code}" Grid.Row="0" Grid.Column="0" TextColor="Azure"></Label>
+                        <Label x:Name="txtName" Text="{Binding name}" Grid.Row="0" Grid.Column="1" TextColor="Azure"></Label>
+                        <Label Text="{Binding description}" Grid.Row="0" Grid.Column="2" TextColor="Azure"></Label>
+                        <Label x:Name="imageCodeText" Text="{Binding imageCode}" Grid.Row="3" Grid.Column="0" TextColor="Azure" IsVisible="false"></Label>
                     </Grid>
                 </ViewCell>
             </DataTemplate>

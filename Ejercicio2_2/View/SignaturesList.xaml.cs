@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.IO;
-using System.Threading.Tasks;
-using Ejercicio2_2.Model;
-using Ejercicio2_2.View;
-
+﻿using Ejercicio2_2.Model;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
