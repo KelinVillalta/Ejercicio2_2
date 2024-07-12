@@ -50,7 +50,7 @@ namespace Ejercicio2_2
 
                 if (result != 1)
                 {
-                    await DisplayAlert("ERROR", "OCURRIO UN ERROR, INTENTE DE NUEVO", "ACEPTAR");
+                    await DisplayAlert("AVISO", "OCURRIO UN ERROR, INTENTE DE NUEVO", "ACEPTAR");
                 }
 
                 await DisplayAlert("AVISO", "GUARDADO CORRECTAMENTE", "ACEPTAR");
